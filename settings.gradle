@@ -1,0 +1,4 @@
+rootProject.name = "Gaoke-UniApp-AS"
+include ':app'
+include ':LBFloatUniBridging'
+include ':Gaoke-Uniapp-base'
