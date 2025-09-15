@@ -3,7 +3,7 @@ plugins {
     id 'com.github.dcendents.android-maven'
 }
 group = 'com.gksc.base'
-version = '1.0'
+version = '1.0.0'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
