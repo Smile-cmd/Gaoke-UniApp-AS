@@ -20,7 +20,6 @@ public class TTSProgressListener extends UtteranceProgressListener {
     @Override
     public void onStart(String utteranceId) {
         Log.i(TAG, " utteranceId = "+ utteranceId + "，onStart");
-        ttsProgressCallback.onStart(utteranceId);
     }
 
     @Override
@@ -32,7 +31,6 @@ public class TTSProgressListener extends UtteranceProgressListener {
     @Override
     public void onError(String utteranceId) {
         Log.i(TAG, " utteranceId = "+ utteranceId + "，onError");
-        ttsProgressCallback.onError(utteranceId);
     }
 
 }

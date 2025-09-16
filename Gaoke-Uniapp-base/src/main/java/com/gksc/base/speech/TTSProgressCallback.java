@@ -6,13 +6,7 @@ package com.gksc.base.speech;
  * @since 2025/9/15 19:23
  **/
 public interface TTSProgressCallback {
-    default void onStart(String utteranceId){
-
-    }
 
     void onDone(String utteranceId);
 
-    default void onError(String utteranceId){
-
-    }
 }

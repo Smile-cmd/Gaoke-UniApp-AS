@@ -49,4 +49,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$rootProject.junitTestVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressocoreVersion"
     compileOnly "com.alibaba:fastjson:$rootProject.fastjsonVersion"
+
+    implementation "org.java-websocket:Java-WebSocket:$rootProject.websocketVersion"
 }
